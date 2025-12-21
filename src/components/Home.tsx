@@ -1,14 +1,17 @@
+import Cart from "./cart/cart";
 import Header from "./header";
 import ProductList from "./products/productList";
+import SubmitButton from "./submitButton";
 
 function Home() {
 	return (
-		<div className="bg-[#ececec] w-full h-screen flex flex-col gap-3 p-5">
+		<div className="bg-[#ececec] w-full h-full flex flex-col gap-3 p-5 items-center">
 			<Header />
 			<ProductList />
-			{/* <ProductList />
+			<div className="font-bold text-[#1e3932] text-md">Bill</div>
 			<Cart />
-			<SubmitButton /> */}
+			<div className="font-bold text-[#1e3932] text-xl">Total : $233.5</div>
+			<SubmitButton />
 		</div>
 	);
 }

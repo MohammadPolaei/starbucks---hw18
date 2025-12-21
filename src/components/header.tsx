@@ -9,7 +9,9 @@ function Header() {
 				></img>
 				<h1 className="text-3xl font-extrabold">Starbucks</h1>
 			</div>
-			<p className="font-medium">starbucks Online Coffee Order</p>
+			<p className="font-bold text-md text-[#1e3932]">
+				Starbucks Online Coffee Order
+			</p>
 		</div>
 	);
 }
